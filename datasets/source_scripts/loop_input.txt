@@ -1,0 +1,37 @@
+[
+  {
+    "schema" : "dbo",
+    "table" : "DimUser",
+    "last_updated_date" : "updated_at",
+    "output_folder_name" : "users", 
+    "backfill_update_date" : ""
+  },
+  {
+    "schema" : "dbo",
+    "table" : "DimTrack",
+    "last_updated_date" : "updated_at",
+    "output_folder_name" : "tracks", 
+    "backfill_update_date" : ""
+  },
+  {
+    "schema" : "dbo",
+    "table" : "DimDate",
+    "last_updated_date" : "date",
+    "output_folder_name" : "dates", 
+    "backfill_update_date" : ""
+  },
+  {
+    "schema" : "dbo",
+    "table" : "DimArtist",
+    "last_updated_date" : "updated_at",
+    "output_folder_name" : "artists", 
+    "backfill_update_date" : ""
+  },
+  {
+    "schema" : "dbo",
+    "table" : "FactStream",
+    "last_updated_date" : "stream_timestamp",
+    "output_folder_name" : "streams", 
+    "backfill_update_date" : ""
+  }
+]
